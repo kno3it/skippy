@@ -43,6 +43,10 @@ user = "restya"
 password = ""
 telegramToken = ""
 ```
+Step 8) Start the bot, you may also reboot the server for it to auto start as configured in step 6
+```bash
+screen -dmS restyaBot /root/skippy/skippy.py
+```
 Note:
 If the bot is running on a different server than the restya database then make sure
 the database allows remote connections. Otherwise you will get database unreachable
