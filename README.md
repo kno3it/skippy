@@ -5,9 +5,9 @@ Step 1) Create a Telegram bot to get a bot token https://core.telegram.org/bots
 
 Step 2) Install requirements (tested on Ubuntu server 16.04)
 ```bash
-apt install python-pip screen
-pip install python-telegram-bot --upgrade
-pip install psycopg2-binary
+apt install -y python-pip screen
+pip install -y python-telegram-bot --upgrade
+pip install -y psycopg2-binary
 ```
 Step 3) Become root if not already and change to /root
 ```bash
