@@ -3,7 +3,7 @@ Telegram bot to interface with Restya.
 
 Step 1) Create a Telegram bot to get a bot token https://core.telegram.org/bots
 
-Step 2) Install requirements (tested on Ubuntu server 16.04)
+Step 2) Install requirements (tested on Ubuntu server 16.04), you will be prompted to update to the newest version of pip, do not update.
 ```bash
 apt install -y python-pip screen
 pip install python-telegram-bot --upgrade
